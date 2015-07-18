@@ -3,12 +3,12 @@ node_js:
 - '0.11'
 - '0.10'
 before_install:
-- env
+- env | grep TRAVIS
 before_script:
-- env
+- env | grep TRAVIS
 script:
-- env
+- env | grep TRAVIS
 after_scripts:
-- env
+- env | grep TRAVIS
 after_success:
-- env
+- env | grep TRAVIS
